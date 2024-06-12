@@ -159,3 +159,4 @@ class _NewsDetailsScreenState extends State<NewsDetailsScreen> {
 }
 
 // const String activity;
+

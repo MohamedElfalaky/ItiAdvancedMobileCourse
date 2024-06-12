@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iti_adv_mobile_dev/oop.dart';
+import 'package:iti_adv_mobile_dev/solid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,11 @@ void main() {
   // p3.setPersonAge = 2;
 
   // print(p3.getPersonAge);
+
+  CheckOut().checkOut(PaymentViaCreditCard());
+  CheckOut().checkOut(PaymentViaDebitCard());
+
+  print(NewRegisteredUsers.numberOfAllRegisteredUsers);
 }
 
 class MyApp extends StatelessWidget {
