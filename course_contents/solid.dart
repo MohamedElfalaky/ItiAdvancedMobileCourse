@@ -50,10 +50,17 @@ D ---> Dependancy inversion
  class Validations{}
 
 
+
+
+
+
+
  2- Open-Closed
  You should be able to add new feature without modifying the existing code;
  An entity should be open for extension but closed for modification.
 
+
+//////// bad practise: //////////
 
 class Rectangle {
 final width;
@@ -103,6 +110,7 @@ AreaCalculation{
 
 }
 
+//////// good practise: //////////
 
 abstract class Shape {
 
