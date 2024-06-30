@@ -2,7 +2,15 @@ class MoviesEntity {
   final String backdropPath;
   final String title;
   final String overview;
-  final String voteAverage;
+  final num voteAverage;
+  final String realeasDate;
+  final List<int> generIds;
 
-  MoviesEntity(this.backdropPath, this.title, this.overview, this.voteAverage);
+  MoviesEntity(
+      {required this.backdropPath,
+      required this.title,
+      required this.overview,
+      required this.voteAverage,
+      required this.realeasDate,
+      required this.generIds});
 }
